@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get real authentic, hand crafted guitars from Guitar King" />
+    <title>Guitar King | Home</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Guitar Kings </a>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Guitars.html">Guitars</a></li>
+              <li><a href="Contact.html">Contact</a></li> 
+            </ul>
+        </nav>
+        <section>
+            <h1>Authentic Handmade Guitars</h1>
+            <a href="Guitars.html">View Guitars</a>
+        </section>
+    </header>
+    <main>
+        <section>
+        <div>
+            <h2>Our Guitars Are</h2>
+            <ul>
+                <li>Made with real Pennsylvanian wood</li>
+                <li>Crafted by a family-run business</li>
+                <li>Built to last a lifetime</li>
+                <li>Beautiful unique sound</li>
+                <li>Options for all music lovers</li>
+            </ul>
+        </div>
+        <img src="image/home-info.jpg" alt="Hand struming guitar" />
+        </section>
+        <section>
+            <h2>Review</h2>
+            <div>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eveniet possimus error minima suscipit incidunt odit vitae autem. Voluptatum unde sint aliquid accusamus eaque maxime eveniet culpa rem veniam reiciendis.</p>
+                <img src="fiks her" alt="Profile picture of Bob Willis" />
+            </div>
+            <div>
+                <p>“Maecenas interdum, erat nec pulvinar euismod, eros erat ormare mauris, commodo vestibulum odio nunc 1d uma. Sed volutpat consequat dolor, nec sollicitudin elit elerfend vitae.” - Sally Oldfield</p>
+                <img src="fiks her" alt="Profile picture of Bob Willis" />
+            </div>
+        </section>
+        <section>
+            <h2>View Our Guitars</h2>
+            <div>
+                <img src="" alt="Adirondack Red" />
+                <p>$500</p>
+                <a href="fiks her">View</a>
+            </div>
+            <div>
+                <img src="" alt="Adirondack Red" />
+                <p>$500</p>
+                <a href="fiks her">On sale</a>
+            </div>
+            <div>
+                <img src="" alt="Adirondack Red" />
+                <p>€$500r</p>
+                <a href="fiks her">View</a>
+            </div>
+            <div>
+                <img src="" alt="Adirondack Red" />
+                <p>$500</p>
+                <a href="fiks her">View</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyrigt &copy;
+    </footer>
+</body>
+</html>

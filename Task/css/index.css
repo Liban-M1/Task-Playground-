@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+header {
+    background-image: url('images/wave.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
