@@ -6,3 +6,6 @@ html, body {
 .form__input {
     display: block;
 }
+body {
+    
+}
