@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+header {
+    position: relative;
+    background: rgb(56, 56, 56);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+nav {
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    top: 0%;
+    left: 30px;
+}
+
+nav a {
+    display: block;
+    color: #ffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: block;
+        position: static;
+    }
+    
+    .hamburger-icon {
+        display: block;
+
+    }
+    
+    nav a {
+        display: inline-block;
+    }
+}
