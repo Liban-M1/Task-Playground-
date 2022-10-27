@@ -1,49 +1,21 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-nav {
-    display: none;
-}
-
-#menu-checkbox:checked ~ nav {
-    display: block;
-}
-
-header {
-    position: relative;
-    background: rgb(56, 56, 56);
-    color: #fff;
+.item {
+    background-color: #abd5ff;
+    max-width: 150px;
     padding: 10px;
-    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .floated {
+    float: left;
+  }
+
+.positioned {
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
-nav {
-    position: absolute;
-    background-color: rgb(56, 56, 56);
-    top: 0%;
-    left: 30px;
-}
-
-nav a {
-    display: block;
-    color: #ffff;
-    padding: 10px 20px;
-    font-size: 1rem;
-}
-
-@media (min-width: 600px) {
-    nav {
-        display: block;
-        position: static;
-    }
-    
-    .hamburger-icon {
-        display: block;
-
-    }
-    
-    nav a {
-        display: inline-block;
-    }
-}
+  .section::after {
+    content: ;
+    clear: both;
+    display: table;
+  }
