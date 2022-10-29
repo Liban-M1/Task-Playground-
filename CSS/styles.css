@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     display: flex;
   }
@@ -9,4 +10,26 @@
   
   .wider-item {
     flex: 4;
+=======
+.item {
+    background-color: #abd5ff;
+    max-width: 150px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .floated {
+    float: left;
+  }
+
+.positioned {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+  .section::after {
+    content: ;
+    clear: both;
+    display: table;
+>>>>>>> 8424353bfca6d67f89eee67cfa88495025c6d3fa
   }
