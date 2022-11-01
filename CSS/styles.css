@@ -1,35 +1,14 @@
-<<<<<<< HEAD
-.container {
-    display: flex;
-  }
-  
-  .item{
-    margin: 5px;
-    flex: 1;
-  }
-  
-  .wider-item {
-    flex: 4;
-=======
-.item {
-    background-color: #abd5ff;
-    max-width: 150px;
-    padding: 10px;
-    margin: 10px;
-  }
-  .floated {
-    float: left;
-  }
 
-.positioned {
-    position: relative;
-    top: 10px;
-    left: 10px;
+
+
+header {
+  grid: 0% 0% 100% 100% block;
 }
 
-  .section::after {
-    content: ;
-    clear: both;
-    display: table;
->>>>>>> 8424353bfca6d67f89eee67cfa88495025c6d3fa
-  }
+body { 
+  
+  background: lightblue;
+  min-height: 100vh;
+    
+  
+}
