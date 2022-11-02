@@ -1,14 +1,44 @@
-
-
-
-header {
-  grid: 0% 0% 100% 100% block;
+body {
+  background-color: aquamarine;
 }
 
-body { 
-  
-  background: lightblue;
-  min-height: 100vh;
-    
-  
+.rectangle-4 {
+  width: 100%;
+  height: 50%;
+  background-color: gray;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.component-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.why-choose-us {
+  margin-bottom: 56px;
+  margin-left: 536px;
+}
+.our-raincoats-are-made-from-waterproof-a {
+  margin-bottom: 55px;
+  margin-left: 169px;
+}
+.flex-wrapper-one {
+  margin-bottom: 62px;
+  display: flex;
+  align-items: flex-start;
+}
+.our-products-are-designed-to-move-as-nat {
+  margin-top: 117px;
+}
+.our-products-are-designed-to-move-as-nat {
+  margin-right: 132px;
+}
+.front-page {
+  margin-right: 133px;
+  align-self: stretch;
+}
+.our-collection-works-together-to-give-yo {
+  align-items: center;
+  align-items: flex-end;
+  word-wrap: normal;
 }
